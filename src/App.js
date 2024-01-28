@@ -1,9 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./assets/images/logo.svg";
+import "./assets/css/App.css";
+
+//import components
+import TheHeader from "./components/TheHeader.js";
+import TheSlider from "./components/TheSlider.js";
 
 function App() {
   return (
     <div className="App">
+      <TheHeader />
+      <TheSlider />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
